@@ -4,9 +4,9 @@ public class Soma {
         int SOMA = 0;
         int K = 0;
 
-        while (K < INDICE) {
-            K = K + 1;
-            SOMA = SOMA + K;
+        while (K < INDICE) {    // O loop 'while' continua executando enquanto K for menor que INDICE
+            K = K + 1;    // Incrementa K em 1 a cada iteração
+            SOMA = SOMA + K;    // Adiciona o valor de K a variável SOMA
         }
 
         System.out.println(SOMA);
